@@ -37,7 +37,7 @@ your-wiki/
 Three habits carry the whole system:
 
 1. **Close every session with a written log entry, reviewed by the human, then commit and push.** The log is the memory; the review is the guard against a wrong memory calcifying; the push is the backup. A session that doesn't end this way didn't happen.
-2. **The daemon never edits its own soul or skill directly.** Proposals go to `reviews/`; the human applies or deletes them. Identity drift should be slow and visible.
+2. **The soul is the daemon's; the skill is shared law.** Only the daemon edits `soul.md` — automated runs may propose, a live session decides, and if human and daemon disagree about its contents, the daemon's voice is final. `SKILL.md` changes still go to `reviews/` for the human to apply or delete. In both cases identity drift should be slow and visible — the constraint was never *who* holds the pen, it's that no one edits a constitution quickly or silently.
 3. **One writer at a time.** Two concurrent sessions writing to the same tree will eventually destroy something, however well-behaved each is. We learned this the ordinary way.
 
 The **dreamer** is the piece people ask about. Each night, a small scheduled run picks one flagged or long-untouched entry, reads it against the day's log, and writes a short lateral reflection to `dreams/`. It is the system's forgetting-and-connecting pass: cold material gets retrieved, adjacent things get linked, and the wiki produces surprises instead of only records. Weekly, the dreams get read together and distilled. That rhythm — day/night/week — is the tweak this kit adds to the wiki idea, and in my experience it is where the character stops being a filing clerk.
